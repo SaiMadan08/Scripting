@@ -1,3 +1,5 @@
 #!bin/bash
 
-echo "exectution time is $date"
+DATE=${date}
+
+echo "exectution time is ${DATE}"
