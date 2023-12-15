@@ -3,12 +3,18 @@
 NUMBER1=$1
 NUMBER2=$2
 
-SUM=$(($NUMBER1-$NUMBER2))
+SUM=$(($NUMBER1+$NUMBER2))
+SUB=$(($NUMBER1-$NUMBER2))
+MUL=$(($NUMBER1*$NUMBER2))
 
-echo "Total:: $SUM"
+echo "Sum is : $SUM"
 
-echo "How many args passed:: $#"
+echo "Sub is : $SUB"
 
-echo "All args passed:: $@"
+echo "MUL is : $MUL"
 
-echo "Script name:: $0"
+echo "How many args passed : $#"
+
+echo "All args passed : $@"
+
+echo "Script name : $0"
