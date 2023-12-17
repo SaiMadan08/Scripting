@@ -4,7 +4,7 @@ ID=$(id -u)
 
 VALIDATE(){
     if[$1 -ne 0]
-    then
+    
         echo " ERROR $2 is Failed"
         exit 1
     else
@@ -13,7 +13,7 @@ VALIDATE(){
 }
 
 if [$ID -ne 0]
-then
+
     echo "You are not a root user"
     exit 1
 else
